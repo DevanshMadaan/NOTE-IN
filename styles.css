@@ -1,0 +1,272 @@
+#body{
+    background-color: #333333;
+}
+#div1{
+    width:100%;
+    height: max-content;
+    text-align: center;
+}
+
+#sub-div1{
+   
+    color: white;
+    float:left;
+    width:100%;
+    height:100%;
+
+}
+#div2{
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+   
+}
+#pop-up{
+    display: none;
+  position: fixed; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;  
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+#AddNote{
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    height:50px;
+    width:160px;
+    border-radius: 20px;
+    font-size: medium;
+    background-color: snow;
+
+    
+}
+
+#close{
+    color: #aaaaaa;
+    float:right;
+    font-size:30px;
+    font-weight: bold;
+}
+#close:hover,
+#close:focus {
+    cursor:pointer;
+    color:red;
+}
+#done{
+    position: relative;
+    float:right;
+    background-color: #4863A0;
+    margin-left: 10px;
+    height:30px;
+    width:80px;
+    font-size: 17px;
+    color:white;
+    bottom: 5px;
+    border-radius: 5px;
+}
+#cancel{
+    position:relative;
+    background-color: #838996;
+    float: right;
+    margin: auto;
+    height:30px;
+    width:80px;
+    bottom: 5px;
+   font-size: 17px;
+  color:white;
+  border-radius: 5px;
+}
+#sub-pop{
+    padding-left:2%;
+    padding-bottom: 3%;
+    padding-right:2%;
+    padding-top: 1%;
+    background-color: white;
+    width:60%;
+    height:40%;
+    margin:auto;
+    border:solid white;
+    border-radius: 10px;
+
+}
+#addnotetext{
+    height:80%;
+    width:100%;
+    margin-top: 0.5%;
+}
+#newdiv{
+    background-color: #CCCCFF;
+    border-radius: 5px;
+  display: block;
+  margin: 1%;
+  padding-top: 1%;
+  float: left;
+    height:230px;
+    width:260px;
+    overflow:hidden;
+}
+#noteHeading{
+    width: 100%;
+
+}
+#header-head{
+    font-size:50px;
+}
+#subdiv{
+    display: none;
+    position:relative; 
+    margin-top: 40%; 
+    left: 0;
+    right: 1;
+    
+    width: 100%; 
+    height:100%;  
+    background-color: rgb(0,0,0);
+  background-color: #5b5b5b;
+}
+#note_edit{
+    position: relative;
+    margin-top: 3%;
+    margin-right: 2%;
+    height:11%;
+    width:12%;
+    float: right;
+    right:2;
+    bottom: 2;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+#note_edit:hover,
+#note_edit:focus {
+    cursor:pointer;
+}
+#note_del{
+    border-radius: 5px;
+    border:none;
+    position: relative;
+    background-color: white;
+    margin-top: 3%;
+    margin-right: 2%;
+    height: 11%;
+    width:12%;
+    float:right;
+    right: 2;
+    bottom: 2;
+}
+#note_del:hover,
+#note_del:focus {
+    cursor:pointer;
+}
+#noteHeading{
+    padding-left: 2%;
+}
+#notebody{
+    padding-left: 2%;
+}
+
+
+#img1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#img2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#pop-up1{
+    display: none;
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;  
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+#sub-pop1{
+    padding-left:2%;
+    padding-bottom: 3%;
+    padding-right:2%;
+    padding-top: 1%;
+    background-color: white;
+    width:60%;
+    height:40%;
+    margin:auto;
+    border:solid white;
+    border-radius: 10px;
+
+}
+#addnotetext1{
+    height:80%;
+    width:100%;
+    margin-top: 0.5%;
+    overflow:auto;
+}
+#done1{
+    position: relative;
+    float:right;
+    background-color: #4863A0;
+    margin-top:10px;
+    margin-left: 10px;
+    height:30px;
+    width:80px;
+    font-size: 17px;
+    color:white;
+    bottom: 5px;
+    border-radius: 5px;
+}
+#close1{
+    color: #aaaaaa;
+    float:right;
+    font-size:30px;
+    font-weight: bold;
+}
+#close1:hover,
+#close1:focus {
+    cursor:pointer;
+    color:red;
+}
+#npop{
+    display: none;
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;  
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+#spop{
+    padding-left:2%;
+    overflow-y: auto;
+    overflow-x:none;
+    padding-bottom: 3%;
+    padding-right:2%;
+    padding-top: 1%;
+    background-color: white;
+    width:60%;
+    height:40%;
+    margin:auto;
+    border:solid white;
+    border-radius: 10px; 
+}
+#bt3{
+    color: #aaaaaa;
+    float:right;
+    font-size:30px;
+    font-weight: bold;
+}
+#bt3:hover,
+#bt3:focus {
+    cursor:pointer;
+    color:red;
+}
